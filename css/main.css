@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   font-family: "Merriweather", serif;
-
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -35,6 +35,8 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  border: 1px solid #a63f38;
+  padding: .4rem 0;
 }
 
 nav ul li a {
@@ -44,8 +46,7 @@ nav ul li a {
 
 }
 
-nav ul {
+.conatiner {
   display: flex;
-  flex-direction: row;
 
 }
