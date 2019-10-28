@@ -46,7 +46,14 @@ nav li {
   border: 1px solid #a63f38;
   padding: .4rem 0;
   flex: 1;
-  align-items: center;
+}
+
+.home {
+  border-right: none;
+}
+
+.cereals {
+  border-right: none;
 }
 
 nav li:hover {
@@ -59,7 +66,10 @@ nav a {
   color: #fff;
   font-size: 1.125rem;
   font-family: Merriweather, serif;
-  padding: .5em 0;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a:hover {
