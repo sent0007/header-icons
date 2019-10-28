@@ -10,15 +10,21 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: center;
+
+}
+
+.banner {
+  display: flex;
+
 }
 
 header {
   background-color: #d05c2e;
+
 }
 
 .left, .right {
   width: 40px;
-
 }
 
 h1 {
@@ -26,16 +32,17 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
-  display: inline-block;
+  margin: 0;
 }
 
 nav ul {
   list-style-type: none;
   padding:0;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav li {
-  display: inline-block;
   border: 1px solid #a63f38;
   padding: .4rem 0;
 }
@@ -46,10 +53,9 @@ nav a {
   color: #fff;
   font-size:  1.125rem;
   font-family: "Merriweather", serif;
-
+  padding: .5em 0;
 }
 
-.conatiner {
-  display: flex;
-
+nav a:hover {
+  background-color: #a63f38;
 }
