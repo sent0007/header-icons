@@ -10,17 +10,16 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: center;
-
 }
 
 .banner {
   display: flex;
-
+  justify-content: space-between;
+  padding: .5em 0;
 }
 
 header {
   background-color: #d05c2e;
-
 }
 
 .left, .right {
@@ -39,12 +38,17 @@ nav ul {
   list-style-type: none;
   padding:0;
   display: flex;
-  justify-content: space-around;
+  margin: 0;
 }
 
 nav li {
   border: 1px solid #a63f38;
   padding: .4rem 0;
+  flex: 1;
+}
+
+nav li:hover {
+  background-color: #a63f38;
 }
 
 nav a {
@@ -54,8 +58,4 @@ nav a {
   font-size:  1.125rem;
   font-family: "Merriweather", serif;
   padding: .5em 0;
-}
-
-nav a:hover {
-  background-color: #a63f38;
 }
