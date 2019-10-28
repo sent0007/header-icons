@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+
+  text-align: center;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+.left, .right {
+  width: 40px;
+
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size:  1.125rem;
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+
+}
