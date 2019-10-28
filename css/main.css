@@ -8,7 +8,6 @@ html {
 
 body {
   margin: 0;
-  font-family: "Merriweather", serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -23,7 +22,9 @@ header {
 }
 
 h1 {
+  font-family: "Merriweather", serif;
   font-size: 2rem;
+  font-weight: 700;
   color: #fff;
   display: inline-block;
 }
@@ -33,16 +34,18 @@ nav ul {
   padding:0;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
   border: 1px solid #a63f38;
   padding: .4rem 0;
 }
 
-nav ul li a {
+nav a {
   text-decoration: none;
+  font-weight: 400;
   color: #fff;
   font-size:  1.125rem;
+  font-family: "Merriweather", serif;
 
 }
 
