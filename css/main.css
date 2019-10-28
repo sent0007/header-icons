@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
@@ -58,7 +58,7 @@ nav a {
   font-weight: normal;
   color: #fff;
   font-size: 1.125rem;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   padding: .5em 0;
 }
 
